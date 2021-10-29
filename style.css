@@ -1,0 +1,94 @@
+/*Heading*/
+#heading{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+    color: rgb(96, 91, 91);
+}
+/*Mainpage*/
+.container{
+    width: 90%;
+    background-color: rgb(247, 217, 217);
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+button {
+    background: none;
+    color: rgb(96, 91, 91);
+    border: none;
+    padding: 0;
+}
+/*Calendar*/
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+.content {
+    height: 100%;
+    padding: 70px 25px;
+    width: 100%;
+    text-align: center;
+    background: rgb(217, 247, 243);
+}
+.content ul {
+    margin: 0;
+    padding: 0;
+}
+.content ul li {
+    color: rgb(96, 91, 91);
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+#prev {
+    float: left;
+    padding-top: 10px;
+}
+#next {
+    float: right;
+    padding-top: 10px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #1abc9cd6;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+.days {
+    padding: 10px 0;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+  
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+  
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+#myChart{
+    border: solid 1px blue;
+    width: 100%;
+}
